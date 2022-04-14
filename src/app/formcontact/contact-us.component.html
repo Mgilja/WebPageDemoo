@@ -1,0 +1,38 @@
+
+
+<h1>ASK US A QUESTION</h1>
+
+<mat-card>
+
+    <form (submit)="onSubmit(contactUsForm)" #contactUsForm="ngForm"> 
+        Enter your name please
+        <mat-form-field>
+         <input matInput
+         name="name"
+         ngModel
+         type="name"
+         placeholder="your name" #nameInput="ngModel" required name>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput
+            name="email"
+            ngModel
+            type="email"
+            placeholder="your name" #emailInput="ngModel" required email>
+           </mat-form-field>
+        <mat-form-field>
+          <input matInput
+            name="name"
+            ngModel
+            type="name"
+            placeholder="your name" #nameInput="ngModel" required name>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput
+            name="name"
+            ngModel
+            type="name"
+            placeholder="your name" #nameInput="ngModel" required name>
+        </mat-form-field>
+    </form>
+</mat-card>
